@@ -1,0 +1,114 @@
+/* Scheduler.css */
+
+/* Container for the scheduler header */
+.scheduler-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    padding-bottom: 3px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Curved edges */
+  }
+  
+  /* Button bar styling */
+  .button-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px; /* Space between button bar and dropdown */
+  }
+  
+  .button-bar button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-bar button:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  
+  /* Timezone dropdown styling */
+  .timezone-dropdown {
+    margin-top: 10px;
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .timezone-dropdown select {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Date information */
+  .date-info {
+    margin-top: 10px;
+  }
+  
+  /* Table container for the schedule */
+  .table_container {
+    margin-top: 20px;
+    font-size: 13px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-width: 100%;
+  }
+  
+  /* Table styling */
+  table {
+    border-collapse: collapse;
+    width: auto;
+    table-layout: auto;
+    height: 580px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
+  /* Checkbox styles */
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Highlight selected day */
+  .selected-day {
+    background-color: #f2f2f2;
+  }
+  
+  /* Calendar container */
+  .calendar_container {
+    margin-top: 10px;
+    margin-bottom: -8px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Calendar component */
+  .calendar_component {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
